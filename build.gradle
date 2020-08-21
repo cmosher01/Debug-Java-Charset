@@ -1,0 +1,10 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+group 'nu.mine.mosher.util'
+version '1.0.0-SNAPSHOT'
+mainClassName = 'nu.mine.mosher.util.DebugCharset'
+
+repositories {
+    mavenCentral()
+}
